@@ -27,6 +27,8 @@ Juego de la Vida
 unsigned char fps=25;
 double current_time,last_time;
 
+float condition = 0.0f;
+
 int total_cells = 0, cellperrow = 0, counter = 0;
 float cell_size = 0.0f;
 
